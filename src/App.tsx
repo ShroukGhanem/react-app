@@ -1,9 +1,11 @@
-import Message from "./Message";
+import Button from "./components/Button";
 
 function App() {
   return (
     <div>
-      <Message />
+      <Button onClick={() => console.log("clicked")} color="danger">
+        My Btn
+      </Button>
     </div>
   );
 }
